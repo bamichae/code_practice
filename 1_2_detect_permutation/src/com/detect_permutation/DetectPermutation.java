@@ -11,7 +11,7 @@ public class DetectPermutation {
 
     public void run() {
         String firstString = "abcdefghijkl";
-        String secondString = "acbdfegihljk";
+        String secondString = "acbdegihljk";
 
         System.out.println(checkForPermutation(firstString, secondString));
     }
